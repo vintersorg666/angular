@@ -1,0 +1,11 @@
+<p>Interpolazione/p>
+<p>Interpolazione {{ interpolazione }}</p>
+
+<p>propertybindig/p>
+  <img [src]="propertybindig" alt="{{propertybindig}}">
+<p>eventbinding/p>
+  <button (click)="eventBinding()">Clicca per eventBinding</button>
+
+<p>two way binding</p>
+<input [(ngModel)]="nome" placeholder="Inserisci il tuo nome">
+<p>Ciao, {{ nome }}!</p>
